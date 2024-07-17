@@ -3,7 +3,7 @@ from telebot import types
 import sqlite3
 from datetime import datetime
 
-bot = telebot.TeleBot('7423765828:AAFGDTXhSV9pYPRoJqUj_B7kOcdT0wMPpRk')
+bot = telebot.TeleBot('token')
 db = sqlite3
 date = datetime.now()
 con = sqlite3.connect("baza")
