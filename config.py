@@ -16,6 +16,8 @@ def day(date):
     elif x == 1:
         return 'понедельник'
     elif x == 2:
-        return 'среда'
+        return 'вторник'
     elif x == 3:
+        return 'среда'
+    elif x == 4:
         return 'четверг'
